@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Super1",
+            "request": "launch",
+            "mainClass": "Super1",
+            "projectName": "Java Training Programs_6fff7f31"
+        },
+        {
+            "type": "java",
+            "name": "Launch Daughter",
+            "request": "launch",
+            "mainClass": "Daughter",
+            "projectName": "Java Training Programs_6fff7f31"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dog",
+            "request": "launch",
+            "mainClass": "Dog",
+            "projectName": "Java Training Programs_6fff7f31"
+        },
+        {
+            "type": "java",
+            "name": "Launch Programmer",
+            "request": "launch",
+            "mainClass": "Programmer",
+            "projectName": "Java Training Programs_6fff7f31"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java Training Programs_6fff7f31"
+        },
+        {
+            "type": "java",
             "name": "Launch Linked_list_prog",
             "request": "launch",
             "mainClass": "Linked_list_prog",

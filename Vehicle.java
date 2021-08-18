@@ -1,4 +1,4 @@
-abstract class Vehicle{
+abstract class Vehicle {
     private String vehicle_name;
     private String vehicle_ownersname;
     private int vehicle_number;
@@ -9,13 +9,16 @@ abstract class Vehicle{
         this.vehicle_ownersname = vehicle_ownersname;
         this.vehicle_number = vehicle_number;
     }
-    public void check_details(){
-        System.out.println("Check Details to " + this.vehicle_name + " " + this.vehicle_ownersname+" " +this.vehicle_number);
+
+    public void Check_details() {
+        System.out.println(
+                "Check Details to " + this.vehicle_name + " " + this.vehicle_ownersname + " " + this.vehicle_number);
     }
 }
-public class Main extends Vehicle{
+
+public abstract class Abs extends Vehicle {
     public static void main(String args[]) {
         Vehicle v = new Vehicle("Mustang", "Anuj", "2615");
-        v.check_details();
+        v.Check_details();
     }
 }

@@ -1,5 +1,5 @@
 interface LamExp {
-    public void Student();
+    abstract void Student();
 }
 class Lam1{
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class SelectionSort{
     public static void main(String args[]){
         int size, i, j, a;
-        int arr[]=new int[100;
+        int arr[]=new int[100];
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter The Array Size: ");
         size = sc.nextInt();

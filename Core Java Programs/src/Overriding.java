@@ -1,10 +1,10 @@
 class Overriding{
-    public void display() {
+    public void display(){
         System.out.println("This is base class method");
     }
 }
 class OverridingSub extends Overriding{
-    public void display() {
+    public void display(){
         System.out.println("This is child class method");
     }
 }

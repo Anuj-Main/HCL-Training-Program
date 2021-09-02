@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-public class CheckEqualsArray {
+public class CheckEqualsArray{
     public static void main(String[] args){
         int a;
         int [] inputArray1st=new int[100];

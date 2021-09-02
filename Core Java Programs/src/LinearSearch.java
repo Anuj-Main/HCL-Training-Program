@@ -1,10 +1,10 @@
 import java.util.Scanner;
-
 public class LinearSearch {
+    private static Scanner in;
     public static void main(String[] args) {
         int linear, a, i;
         int []inputArray=new int[100];
-        Scanner in=new Scanner(System.in);
+        in=new Scanner(System.in);
         System.out.println("Enter The list of Numbers: ");
         linear=in.nextInt();
         System.out.println("Enter "+linear+" Numbers ");

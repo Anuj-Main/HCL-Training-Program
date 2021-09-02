@@ -1,9 +1,10 @@
 import java.util.Scanner;
 public class SelectionSort{
+    private static Scanner sc;
     public static void main(String args[]){
         int size, i, j, a;
         int arr[]=new int[100];
-        Scanner sc=new Scanner(System.in);
+        sc=new Scanner(System.in);
         System.out.print("Enter The Array Size: ");
         size = sc.nextInt();
         System.out.print("Enter Array Elements : ");

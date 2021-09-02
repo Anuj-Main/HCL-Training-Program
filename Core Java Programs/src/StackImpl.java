@@ -1,6 +1,5 @@
-import java.util.Stack;
 
-public class StackImpl {
+public class StackImpl{
     private int arr[];
     private int top;
     private int limit;
@@ -33,21 +32,20 @@ public class StackImpl {
     private boolean isFull() {
         return top==limit-1;
     }
-    public void PrintStack(){
+    public void printStack(){
         for(int i=0;i<=top;i++){
             System.out.println(arr[i]+" ");
         }
     }
     public static void main(String[] args) {
-        Stack stack=new Stack();
+        Stack2 stack=new Stack2(5);
         stack.push(2);
         stack.push(3);
         stack.push(4);
-        stack.push(5);
         System.out.print("Stack: ");
-        stack.PrintStack();
+        stack.printStack();
         stack.pop();
         System.out.println("\n Stack After pop");
-        stack.PrintStack();
+        stack.printStack();
     }
 }
